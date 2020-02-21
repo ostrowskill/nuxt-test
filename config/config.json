@@ -1,0 +1,143 @@
+{
+  "logotype": "URL",
+  "in_use_sections": ["navigation", "hero", "agenda"],
+  "sections": [{
+      "name": "hero",
+      "content": {
+        "bg": "crimson"
+      }
+    },
+    {
+      "name": "navigation",
+      "content": {
+        "links": [{
+            "id": 1,
+            "label": "link_one",
+            "anchor": "anchor_one"
+          },
+          {
+            "id": 2,
+            "label": "link_two",
+            "anchor": "anchor_two"
+          },
+          {
+            "id": 3,
+            "label": "link_three",
+            "anchor": "anchor_two"
+          }
+        ]
+      }
+    },
+    {
+      "name": "agenda",
+      "content": {
+        "title": "some title",
+        "subtitle": "subtitle if needed",
+        "scenes": ["digital", "technology"],
+        "dates": ["21 kwietnia 2020", "22 kwietnia 2020"],
+        "events": [{
+            "date": "21 kwietnia 2020",
+            "start": "10:00",
+            "ends": "12:00",
+            "event": [{
+                "title": "digitalowe-love",
+                "expert_id": [1],
+                "scene": "digital"
+              },
+              {
+                "title": "technology emoji",
+                "expert_id": [2, 4, 1, 3],
+                "scene": "technology"
+              }
+            ]
+
+          },
+          {
+            "date": "21 kwietnia 2020",
+            "start": "12:00",
+            "ends": "13:00",
+            "event": [{
+                "title": "drugi event tego samego dnia",
+                "expert_id": [4, 1],
+                "scene": "digital"
+              },
+              {
+                "title": "drugi event tego samego dnia",
+                "expert_id": [2],
+                "scene": "technology"
+              }
+            ]
+
+          },
+          {
+            "date": "22 kwietnia 2020",
+            "start": "08:00",
+            "ends": "09:00",
+            "event": [{
+              "title": "some digital title",
+              "expert_id": [3, 1],
+              "scene": "digital"
+            }]
+          },
+          {
+            "date": "22 kwietnia 2020",
+            "start": "09:00",
+            "ends": "10:00",
+            "event": [{
+                "title": "single event without experts",
+                "read_more": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore debitis velit similique? Earum officia aliquid amet saepe cum dicta expedita quo beatae tenetur inventore ipsam culpa odit eos, iste iure!",
+                "expert_id": [],
+                "scene": "digital"
+              },
+              {
+                "title": "single event without experts diff scene",
+                "expert_id": [],
+                "scene": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "video-modal",
+      "content": {
+        "url": "https://"
+      }
+    }
+  ],
+  "intro_section": {
+    "title": "",
+    "subtitle": "",
+    "columns": [{
+      "title": "",
+      "unordered_list": ["przyklad", "przyklad"]
+    }],
+    "copy_banner": "",
+    "copy_CTA": ""
+  },
+  "experts_section": {
+    "title": "",
+    "subtitle": "",
+    "experts": [{
+      "avatar": "URL",
+      "name": "",
+      "short_desc": "",
+      "long_desc": ""
+    }]
+  },
+  "brochure_section": {
+    "title": "",
+    "copy_CTA": ""
+  },
+  "agenda_section": {
+    "title": "",
+    "events": [{
+      "id": 1,
+      "day": "dzień 1",
+      "date": "21 kwietnia 2020",
+      "scene": "scena digital leadership"
+    }]
+  }
+
+}

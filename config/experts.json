@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "first_name": "defaultowy",
+        "last_name": "Luk",
+        "avatar": "https://placeholder", 
+        "short_desc": "some short description", 
+        "long_desc": "some other description longer than... yada-yada-yada"
+    },
+    {
+        "id": 2,
+        "first_name": "defaultowy",
+        "last_name": "nie-Luk",
+        "avatar": "https://placeholder", 
+        "short_desc": "some short description", 
+        "long_desc": "some other description longer than... yada-yada-yada"
+    },
+    {
+        "id": 3,
+        "first_name": "defaultowy",
+        "last_name": "kebs",
+        "avatar": "https://placeholder", 
+        "short_desc": "some short description", 
+        "long_desc": "some other description longer than... yada-yada-yada"
+    },
+    {
+        "id": 4,
+        "first_name": "defaultowy",
+        "last_name": "precelek",
+        "avatar": "https://placeholder", 
+        "short_desc": "some short description", 
+        "long_desc": "some other description longer than... yada-yada-yada"
+    }
+]
